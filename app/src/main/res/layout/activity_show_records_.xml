@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowRecords_Activity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Statustxtt"
+        android:text="Last 24 Hours Records: "
+        android:keyboardNavigationCluster="false"
+        android:gravity="center"
+        android:enabled="false"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listVieww">
+
+
+
+    </ListView>
+
+</LinearLayout>-->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Statustxtt"
+        android:text="Last 24 Hours Records: "
+        android:keyboardNavigationCluster="false"
+        android:gravity="center"
+        android:enabled="false"/>
+
+    <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListRecycler">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+
+

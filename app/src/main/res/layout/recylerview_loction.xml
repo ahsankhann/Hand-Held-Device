@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d6d6d6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:textStyle="bold"
+        android:background="#3f90db"
+        android:id="@+id/counttxt"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13.4"
+        android:textStyle="bold"
+        android:id="@+id/grammagetxt"
+        android:textColor="#3f90db"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/lblPackagetxt"
+            android:text="01680-0023096-0000142"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorShadetxt"
+            android:text="Green/Normal"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>

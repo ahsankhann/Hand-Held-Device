@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#d6d6d6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="13.45"
+        android:textStyle="bold"
+        android:id="@+id/grammagetxt"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#3f90db"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/lblPackagetxt"
+            android:text="01680-0023096-0000142"
+            android:textColor="#3f90db"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="12-02-2019"
+                android:layout_weight="1"
+                android:id="@+id/datetxt"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/colorShadetxt"
+                android:text="Green/Normal"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

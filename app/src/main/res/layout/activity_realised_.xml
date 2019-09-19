@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Realised_Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/BarcodeStatus"
+        android:gravity="center"
+        android:hint="Barcode Status"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/holdtxt"
+        android:text="Released Cartons"
+        android:enabled="false"
+        android:hint="Realised"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LBL Package No"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/resultTxt"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:id="@+id/Statustxt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:id="@+id/DatTimmetxt"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cotton Details"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/Cuttontxt"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tblLayout"
+        android:layout_gravity="center"
+
+        android:foregroundGravity="center"
+        android:layout_marginLeft="35dp">
+
+        <TableRow>
+            <TextView android:text="Grammage" android:id="@+id/Grammagelbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/Grammagelbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Color/Shade" android:id="@+id/ColorShadelbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/ColorShadelbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Product Code" android:id="@+id/ProductCodelbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/ProductCodelbl" android:textSize="18dp"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView android:text="Neck Type" android:id="@+id/NeckTypelbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/NeckTypelbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Batch No" android:id="@+id/BatchNolbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/BatchNolbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Tare Weight" android:id="@+id/TareWeightlbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/TareWeightlbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Gross Weight" android:id="@+id/GrossWeightlbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/GrossWeightlbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Net Weight" android:id="@+id/NetWeightlbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/NetWeightlbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Pieces" android:id="@+id/Pieceslbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/Pieceslbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Mobile Phone" android:id="@+id/Mobilelbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:id="@+id/Mobilelbl" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Status" android:textColor="#3f90db" android:id="@+id/Holdlbl1" android:textSize="18dp"/>
+            <TextView android:layout_marginLeft="15dp" android:textColor="#3f90db" android:id="@+id/Holdlbl" android:textSize="18dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

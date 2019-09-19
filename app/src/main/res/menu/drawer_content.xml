@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1">
+        <item android:title="Home"
+            android:id="@+id/homeitem" android:icon="@mipmap/ic_home" />
+
+        <item android:title="Gani and Tayab"
+            android:id="@+id/gandtitem"
+            android:icon="@drawable/and"/>
+
+        <item android:title="Novatex"
+            android:id="@+id/novatexitem"
+            android:icon="@drawable/ovatex"/>
+
+
+
+        <item android:title="Gatron"
+            android:id="@+id/gatronitem"
+            android:icon="@drawable/atron"/>
+
+        <item android:title="Krystalite"
+            android:id="@+id/krystaliteitem"
+            android:icon="@drawable/rystalite"/>
+    </group>
+
+
+    <group android:checkableBehavior="single" android:id="@+id/group2">
+        <item android:title="Settings"
+            android:id="@+id/settingitem"
+            android:icon="@mipmap/ic_setting_black"/>
+
+        <item android:title="About Us"
+            android:id="@+id/aboutusitem"
+            android:icon="@mipmap/ic_abouts"/>
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group3">
+        <item android:title="LogOut"
+            android:id="@+id/logout"
+            android:icon="@drawable/door"/>
+
+    </group>
+
+
+
+</menu>
